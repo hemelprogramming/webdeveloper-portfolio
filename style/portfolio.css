@@ -186,7 +186,7 @@ main {
   margin-bottom: 50px;
 }
 
-.skill {
+.skill_detiles {
   width: 277px;
   height: 377px;
   padding: 30px 33px;
@@ -207,7 +207,7 @@ main {
   font-weight: 400;
   line-height: 28px;
 }
-.skill_all {
+.skill_container {
   display: flex;
   gap: 24px;
 }
