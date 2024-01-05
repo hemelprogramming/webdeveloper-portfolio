@@ -11,6 +11,9 @@ nav {
 }
 header {
   background: #fff8f3;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .nav-title {
   color: var(--Dark-01, #181818);
@@ -53,13 +56,20 @@ nav ul li a {
   font-weight: 400;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.banner .banner_img {
-  width: 500px;
+.banner .potfolio_img {
+  width: 584px;
+  height: 676px;
+  flex-shrink: 0;
 }
+.banner_contact {
+  max-width: 700px;
+}
+
 .banner_contact h1 {
   color: var(--Dark-02, #474747);
   font-size: 45px;
@@ -114,4 +124,25 @@ nav ul li a {
 .contack-btn:hover {
   background: lightgray;
   color: #fd6e0a;
+}
+/* about part */
+.about_me {
+  margin: 130px 230px;
+  padding: 131px 157px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+.section_title {
+  color: #181818;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.about_description {
+  width: 827px;
+  height: 120px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 400;
 }
