@@ -7,6 +7,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 200px;
+}
+header {
+  background: #fff8f3;
 }
 .nav-title {
   color: var(--Dark-01, #181818);
@@ -47,4 +51,67 @@ nav ul li a {
   color: var(--Dark-02, #474747);
   font-size: 20px;
   font-weight: 400;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .banner_img {
+  width: 500px;
+}
+.banner_contact h1 {
+  color: var(--Dark-02, #474747);
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner_contact h2 {
+  color: var(--Dark-01, #181818);
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner_contact p {
+  width: 585px;
+  color: var(--Dark-03, #757575);
+  font-size: 18px;
+  font-weight: 400;
+}
+.Download-btn {
+  width: 200px;
+  height: 64px;
+  background: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  transition: all linear 0.3s;
+}
+.Download-btn:hover {
+  background: lightgray;
+  color: #fd6e0a;
+}
+.contack-btn {
+  width: 162px;
+  height: 64px;
+  background: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.3s;
+}
+.contack-btn:hover {
+  background: lightgray;
+  color: #fd6e0a;
 }
