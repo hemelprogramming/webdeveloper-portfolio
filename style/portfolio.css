@@ -256,3 +256,25 @@ main {
   margin-top: 50px;
   text-align: center;
 }
+footer {
+  padding: 130px 230px;
+  display: flex;
+  background: #fff8f3;
+  margin-top: 113px;
+}
+.footer_title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer_description {
+  width: 562px;
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.footer_midea {
+  display: flex;
+  gap: 24px;
+}
